@@ -548,3 +548,11 @@ def larger_sum(lst1, lst2):
         return lst2
     
 print(larger_sum([1, 9, 5], [2, 3, 7]))
+#%%
+def in_range(num, lower, upper):
+    if num >= lower and num <= upper:
+        return True
+    else:
+        return False
+Hello_world = "Hello world, my name is Tiago"
+print(Hello_world)
